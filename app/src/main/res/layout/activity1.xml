@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#49C351"
+    android:verticalScrollbarPosition="defaultPosition"
+    tools:context=".activity1"
+    tools:ignore="ExtraText">
+
+    <EditText
+        android:id="@+id/editTextSMS"
+        android:layout_width="362dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="432dp"
+        android:background="#FFFEFE"
+        android:ems="10"
+        android:inputType="text"
+        android:maxLength="1024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/buttontel"
+        android:layout_width="361dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="176dp"
+        android:text="Chaqiruv"
+        app:icon="@android:drawable/sym_call_outgoing"
+        app:iconPadding="8dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck"
+        tools:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonmanzil"
+        android:layout_width="168dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="328dp"
+        android:text="Manzil"
+        app:icon="@drawable/icons8_app_67"
+        app:iconTintMode="multiply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttontg"
+        android:layout_width="179dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="328dp"
+        android:text="Telegram"
+        app:icon="@drawable/icons8_telegram_24"
+        app:iconTintMode="multiply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonhemis"
+        android:layout_width="362dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="252dp"
+        android:text="Hemis tizimi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:gravity="top"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:scrollHorizontally="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/buttonsms"
+        android:layout_width="266dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="92dp"
+        android:textColor="#FFFFFF"
+        android:text="Xabar yuborish"
+        app:icon="@drawable/icons8_message_192"
+        app:iconTintMode="multiply"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

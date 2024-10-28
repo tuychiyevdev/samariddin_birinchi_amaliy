@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_bg"
+
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#65C6EB"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:rotation="0">
+
+            <Button
+                android:id="@+id/buttonLeft"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Play"
+                android:textSize="14sp"
+                app:icon="@drawable/icons8_play_60"
+                app:iconTintMode="multiply" />
+
+            <Button
+                android:id="@+id/buttonRight"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Stop"
+                android:textSize="14sp"
+                app:icon="@drawable/icons8_stop_96"
+                app:iconTintMode="multiply" />
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:rotationX="0"
+                android:text="Dilshodova Rayhona"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:foregroundTint="#E48383"
+                android:text="Dostbekova Mohinur"
+                android:textColorLink="#BF5252"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Eshmatov Begzod"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Hamroyeva Jasmina"
+                android:textColorLink="#E67F7F"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Ismatov Turdibek"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Kamolova Dilshoda"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Ko'ychiyev Orzu"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Muratbayeva Gulbonu"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Muxtarova Shag'zoda"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Narzikulova Dilnura"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Norboyev Baxtiyor"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Nurmamatov Mirzabek"
+                android:textSize="18sp" />
+
+            <!-- Yangi tugmalar qo'shildi -->
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Ochilova Maftuna"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="O'ktamov Elshod"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Olloyorov G'iyosbek"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Qarshiboyeva Muhlisa"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Qobilova Shaxlo"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Qo'ldosheva Dildora"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Qo'yboqov Nodirbek"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="To'ychiyev Samariddin"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Tursunov Samandar"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Xaydarov Nurbek"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Xolbutayev Umidjon"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="Xursandov Suxrob"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
